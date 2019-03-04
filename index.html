@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+  <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+  <!-- adding bootstrap for reset as well as grind layout and functions -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <img src="assets/images/bg.png" id="bg" alt="background">
+    <div class="jumbotron">
+        <h1 class="text-center text-strong">Random Trivia Game</h1>
+        <h5 class="text-center">Guess the correct answers before time expires!!</h5>
+        <h6 class="text-center" id = "timer"></h6>
+      </div>
+      <div class="wrapper">	
+        <div id= "timeleft"></div>
+      <div id= "questionblock"></div>
+      <div id= "answerblock"></div>
+      <button class ="btn btn-danger" id ="start">Start Game</button><br>
+      <button class="btn btn-success" id="reset">Play Again?</button>
+    </div>
+
+
+      <script src="assets/js/app.js" type="text/javascript"></script>
+</body>
+</html>
